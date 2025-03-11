@@ -1,0 +1,86 @@
+@import url("./globalStyles.css");
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section__header--ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--bg-beige);
+    height: 40px;
+    width: 100%;
+}
+
+.paragraph__header--ads {
+    font-size: 15px;
+    color: var(--grey-100);
+    font-weight: 400;
+}
+
+.menu__nav--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 93px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+}
+
+.text__logo {
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.container__text--logo {
+    position: relative;
+    right: 12px;
+}
+
+#text__logo--id {
+    padding-left: 9px;
+}
+
+.container__header--menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.menu__header {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--grey-90);
+}
+
+.container__icons--header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icons__img--header {
+    width: 16px;
+    height: 16px;
+}
+
+.button__header {
+    background-color: #89D3D1;
+    width: 103px;
+    height: 24px;
+    border-radius: 71px;
+}

@@ -1,0 +1,8 @@
+@import url("./reset.css");
+
+
+:root {
+    --bg-beige: #F0DACD;
+    --grey-100: #000000D1;
+    --grey-90:#29180F;
+}
