@@ -6,3 +6,7 @@
     --grey-100: #000000D1;
     --grey-90:#29180F;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
