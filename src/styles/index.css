@@ -56,8 +56,10 @@ header {
 
 .container__header--menu {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: absolute;
     gap: 10px;
     display: none;
 }
@@ -68,6 +70,11 @@ header {
     font-weight: 600;
     font-size: 14px;
     color: var(--grey-90);
+    cursor: pointer;
+}
+
+#menu-button {
+    cursor: pointer;
 }
 
 .container__icons--header {
@@ -80,6 +87,7 @@ header {
 .icons__img--header {
     width: 16px;
     height: 16px;
+    cursor: pointer;
 }
 
 .button__header {
@@ -91,27 +99,114 @@ header {
     color: #FFFFFF;
 }
 
+.section__hero {
+    background-color: var(--bg-beige-10);
+
+}
+
+
+.img__hero--section {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-beige-10);
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.section__main--text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.small__h1 {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.ul__list--mains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul__list--mains li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul__list--mains li div img {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+
+}
+
+
+.container__text__list--main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.h3__list--main {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.spanUl__list--main{
+    font-size: 12px;
+}
+
+
+
 
 @media(max-width: 768px) {
-    .show__menu {
+    .container__header--menu {
         display: flex;
         flex-direction: column;
         position: absolute;
         top: 133px;
-        left: 0;
+        left: -100vw;
         width: 100%;
         height: 100vh;
         z-index: 10;
         padding-bottom: 170px;
         gap: 50px;
-        background-color: #F0DACD;
+        background-color: #FFFFFF;
+        transition: linear 0.3s;
+    }
+
+    .show__menu {
+        left: 0;
     }
 
 
 }
 
-@media(min-width: 768px) {
+@media(min-width: 767px) {
     #menu-button {
+        cursor: pointer;
         display: none;
     }
 
