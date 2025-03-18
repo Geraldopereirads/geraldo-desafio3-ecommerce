@@ -8,3 +8,18 @@ function showMenu() {
 }
 
 showMenu();
+
+
+const email = document.querySelector("#email");
+const resultMessage = document.querySelector("#resultMessage");
+
+emailForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const emailValue = email.value;
+});
+
+
+const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+};

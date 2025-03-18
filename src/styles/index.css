@@ -506,6 +506,10 @@ h1 {
     font-size: 16px;
 }
 
+footer {
+    background-color: #F0DACD;
+    width: 100%;
+}
 
 
 
@@ -542,5 +546,15 @@ h1 {
     .container__header--menu {
         display: flex;
     }
+
+}
+
+@media(min-width: 1024px) {
+    .container__header--menu {
+        display: flex;
+    }
+
+ 
+
 
 }
