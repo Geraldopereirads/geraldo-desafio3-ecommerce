@@ -3,6 +3,9 @@
 
 :root {
     --bg-beige: #F0DACD;
+    --bg-beige-10:#F7F2EC;
+    --bg-beige-20:#C9B079;
+    --bg-beige-30:#BF8B70;
     --grey-100: #000000D1;
     --grey-90:#29180F;
 }
